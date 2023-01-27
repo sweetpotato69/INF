@@ -1,4 +1,4 @@
-public class NonTaxable {
+public class NonTaxable extends Produit {
 
 
     //VARIABLES D'INSTANCES
@@ -7,6 +7,7 @@ public class NonTaxable {
 
     //CONSTRUCTUER
     public NonTaxable(String nom, double prix) {
+        super(nom, prix);
         this.nom = nom;
         this.prix = prix;
     }

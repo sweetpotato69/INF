@@ -1,4 +1,4 @@
-public class TaxeSimple {
+public class TaxeSimple extends Produit {
 
     //VARIABLES D'INSTANCES
     private String nom;
@@ -7,6 +7,7 @@ public class TaxeSimple {
     //CONSTRUCTEUR
 
     public TaxeSimple(String nom, double prix) {
+        super(nom, prix);
         this.nom = nom;
         this.prix = prix;
     }
